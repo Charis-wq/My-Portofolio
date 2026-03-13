@@ -1,6 +1,6 @@
 export default function Hero() {
   return (
-    <section className="flex-4 justify-between items-center py-30 px-20">
+    <section className="flex-4 justify-between items-center py-10 px-20">
       <img
         src="src/assets/img/photo personal.png"
         alt="personal"

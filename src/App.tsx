@@ -5,6 +5,7 @@ import "./App.css";
 import Home from "./pages/Navbar";
 import Navbar from "./pages/Navbar";
 import Hero from "./pages/Hero";
+import Footer from "./pages/Footer";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -12,7 +13,11 @@ function App() {
   return (
     <div>
       <Navbar/>
+     <main className="pt-20">
       <Hero/>
+
+     </main>
+     <Footer/>
     </div>
 
   );
