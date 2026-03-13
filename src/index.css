@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Google+Sans+Flex:opsz,wght@6..144,1..1000&family=Inter+Tight:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Patua+One&family=Roboto+Condensed:wght@800&family=Space+Grotesk:wght@300..700&display=swap');
+@import "tailwindcss";
+
+:root {
+  --color-primary: #355872;
+  --color-secondary: #7AAACE;
+  --color-accent: #9CD5FF;;
+  --color-body: #F7F8F0;
+}
+
+body{
+  background-color: var(--color-body);
+  font-family: 'Inter', sans-serif;
+}
+
+
+
+
+
+
