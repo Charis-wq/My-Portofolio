@@ -1,4 +1,5 @@
 export default{
+    darkMode: 'class',
     content: [
     "./index.html",
     "./src/**/*.{js,ts,jsx,tsx}",
@@ -9,7 +10,7 @@ export default{
             fontFamily:{
                 sans:['Inter', 'sans-serif'],
                 heading:['Poppins','sans-serif'],
-                body:['Robto','sans-serif'],
+                body:['Roboto','sans-serif'],
             }
         }
     }

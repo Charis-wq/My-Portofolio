@@ -1,6 +1,6 @@
 export default function Hero() {
   return (
-    <section className="flex-4 justify-between items-center py-10 px-20">
+    <section className="flex-4 justify-between items-center py-10 px-10">
       <img
         src="src/assets/img/photo personal.png"
         alt="personal"
@@ -13,7 +13,7 @@ export default function Hero() {
         Web Developer
       </h1>
 
-      <p className="text-xl mt-6 text-center font-body  ">
+      <p className="text-xl mt-6 text-center font-body max-w-5xl mx-auto  ">
         I am passionate about creating responsive user interfaces and developing
         efficient backend systems. I continuously improve my skills to deliver
         impactful and scalable digital solutions.

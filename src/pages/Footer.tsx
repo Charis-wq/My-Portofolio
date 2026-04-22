@@ -1,6 +1,6 @@
 export default function Footer() {
     return (
-        <footer className="fixed bottom-0 w-full left-0 z-50 text-center bg-[var(--color-primary)]">
+        <footer className="bottom-0 w-full left-0 z-50 text-center bg-[var(--color-primary)]">
             <div className="py-2 px-2 ">
                 <p className="text-white text-sm mb-1">
                     © 2026 Abdul Charis. All rights reserved

@@ -2,15 +2,28 @@
 @import "tailwindcss";
 
 :root {
-  --color-primary: #355872;
+  /* Light Mode */
+  --color-primary: #314f66;
   --color-secondary: #7AAACE;
-  --color-accent: #9CD5FF;;
+  --color-accent: #9CD5FF;
   --color-body: #F7F8F0;
+  --color-text: #1a1a1a; /* Tambahkan warna teks untuk mode terang */
 }
 
-body{
+.dark {
+  /* Dark Mode */
+  --color-primary: #9CD5FF;
+  --color-secondary: #7AAACE;
+  --color-accent: #314f66;
+  --color-body: #121212; 
+  --color-text: #f7f8f0; /* Warna teks untuk mode gelap */
+}
+
+body {
   background-color: var(--color-body);
+  color: var(--color-text); /* Terapkan variabel warna teks di sini */
   font-family: 'Inter', sans-serif;
+  transition: background-color 0.3s ease, color 0.3s ease; /* Tambahkan transisi agar halus */
 }
 
 
