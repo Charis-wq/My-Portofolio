@@ -90,28 +90,28 @@ export default function Navbar() {
         {/* Mobile Menu */}
 
         <div
-          className={`fixed inset-0 bg-black/50  flex flex-col items-start px-25 py-10 gap-8 text-xl text-[var(--color-body)] transition-transform duration-500 translate-x-1/2 md:hidden ${
+          className={`fixed inset-0 bg-black/50 flex flex-col items-start px-25 py-10 gap-8 text-xl text-[var(--color-body)] transition-transform duration-500 translate-x-1/2 md:hidden ${
             isOpen ? "translate-y-14" : "-translate-y-full "
           }`}
         >
           <a
             href="#about"
             onClick={() => setIsOpen(false)}
-            className="text-white hover:text-[var-(--color-accent)]"
+            className="text-white hover:text-[var(--color-accent)]"
           >
             About
           </a>
           <a
             href="#project"
             onClick={() => setIsOpen(false)}
-            className=" text-white hover:text-[var-(--color-accent)]"
+            className=" text-white hover:text-[var(--color-accent)]"
           >
             Project
           </a>
           <a
             href="#contact"
             onClick={() => setIsOpen(false)}
-            className=" text-white hover:text-[var-(--color-secondary)]"
+            className=" text-white hover:text-[var(--color-accent)]"
           >
             Contact
           </a>

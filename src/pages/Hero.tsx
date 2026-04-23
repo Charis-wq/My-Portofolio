@@ -20,9 +20,8 @@ export default function Hero() {
       </p>
 
       <div className="flex justify-center items-center gap-20 py-5">
-        <button className="bg-[var(--color-primary)] text-white py-2 px-2 rounded-md text-md mt-6 hover:bg-[var(--color-secondary)] cursor-pointer ">
-          About Me
-        </button>
+       <a href="#about" className="bg-[var(--color-primary)] text-white py-2 px-2 rounded-md text-md mt-6 hover:bg-[var(--color-secondary)] cursor-pointer">
+         About Me</a>
 
         <button className="bg-gray-500 text-white py-2 px-2 rounded-md text-md mt-6 hover:bg-[var(--color-secondary)] cursor-pointer ">
             Download CV
